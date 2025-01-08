@@ -20,6 +20,7 @@
           <version>3.5.2</version>
           <configuration>
             <suiteXmlFiles>
+          <!--  <suiteXmlFile>master.xml</suiteXmlFile>-->
             <suiteXmlFile>master.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
@@ -27,16 +28,6 @@
       </plugins>
     </pluginManagement>
   </build>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <dependencies>
    <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -67,6 +58,11 @@
     <artifactId>testng</artifactId>
     <version>7.10.2</version>
     <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
 </dependency>
   </dependencies>
 </project>

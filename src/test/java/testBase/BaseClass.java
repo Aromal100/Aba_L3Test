@@ -49,7 +49,7 @@ public class BaseClass {
 		@AfterClass(groups={"Sanity","DataDriven","master"})
 		public void teardown() throws InterruptedException
 		{
-			driver.quit();
+			//driver.quit();
 		}
 		
 		public String capturescreenshot(String sname)
