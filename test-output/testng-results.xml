@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-08T11:41:58 IST" name="Suite" finished-at="2025-01-08T11:42:31 IST" duration-ms="32858">
+  <suite started-at="2025-01-21T15:25:23 IST" name="Suite" finished-at="2025-01-21T15:27:43 IST" duration-ms="139971">
     <groups>
     </groups>
-    <test started-at="2025-01-08T11:41:58 IST" name="Test" finished-at="2025-01-08T11:42:31 IST" duration-ms="32858">
-      <class name="testCases.Test_OnlineAdmisson">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_OnlineAdmisson@7ec7ffd3]" started-at="2025-01-08T11:41:58 IST" name="setup" finished-at="2025-01-08T11:42:03 IST" duration-ms="4709" status="PASS">
+    <test started-at="2025-01-21T15:25:23 IST" name="Test" finished-at="2025-01-21T15:27:43 IST" duration-ms="139971">
+      <class name="testCases.Test_EmployeeCreation">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_EmployeeCreation@7ec7ffd3]" started-at="2025-01-21T15:25:23 IST" name="setup" finished-at="2025-01-21T15:25:29 IST" duration-ms="6132" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="onlineadm()[pri:0, instance:testCases.Test_OnlineAdmisson@7ec7ffd3]" started-at="2025-01-08T11:42:03 IST" name="onlineadm" finished-at="2025-01-08T11:42:31 IST" duration-ms="28106" status="PASS">
+        <test-method signature="employeecreation()[pri:0, instance:testCases.Test_EmployeeCreation@7ec7ffd3]" started-at="2025-01-21T15:25:29 IST" name="employeecreation" finished-at="2025-01-21T15:27:43 IST" duration-ms="133804" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- onlineadm -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Test_OnlineAdmisson@7ec7ffd3]" started-at="2025-01-08T11:42:31 IST" name="teardown" finished-at="2025-01-08T11:42:31 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- employeecreation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Test_EmployeeCreation@7ec7ffd3]" started-at="2025-01-21T15:27:43 IST" name="teardown" finished-at="2025-01-21T15:27:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.Test_OnlineAdmisson -->
+      </class> <!-- testCases.Test_EmployeeCreation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

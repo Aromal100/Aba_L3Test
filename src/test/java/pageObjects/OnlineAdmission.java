@@ -32,7 +32,7 @@ public class OnlineAdmission extends BasePage {
 	public void program()
 	{
 		Select s= new Select(program);
-		s.selectByValue("2");
+		s.selectByValue("1");
 	}
 	
 	@FindBy(id="classesID")
@@ -41,7 +41,7 @@ public class OnlineAdmission extends BasePage {
 	public void grade()
 	{
 		Select s= new Select(grade);
-		s.selectByValue("KG1");
+		s.selectByValue("GRADE10");
 	}
 	
 	@FindBy(id="fname")
@@ -97,7 +97,7 @@ public class OnlineAdmission extends BasePage {
 	public void dob()
 	{
 		String month="ጥር";
-		String year="1999";
+		String year="2010";
 		String date="1";
 		
 		dob.click();
@@ -155,7 +155,7 @@ public class OnlineAdmission extends BasePage {
 	public void commencement()
 	{
 		Select s= new Select(commencement);
-		s.selectByValue("2007");
+		s.selectByValue("2013");
 				
 	}
 	
@@ -238,6 +238,13 @@ public class OnlineAdmission extends BasePage {
 	public void phone(String no)
 	{
 		phone.sendKeys(no);
+	}
+	
+	@FindBy(id="email")
+	WebElement email;
+	public void email(String name)
+	{
+		email.sendKeys(name);
 	}
 	
 	@FindBy(id="fparentname")

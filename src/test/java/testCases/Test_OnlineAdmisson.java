@@ -48,6 +48,7 @@ public class Test_OnlineAdmisson extends BaseClass {
 		oa.currentworeda();
 		oa.houseno("10");
 		oa.phone(phone);
+		oa.email("vishnupriya.resbee@gmail.com");
 		oa.fparentname(parentFirstName);
 		oa.mparentname(parentMiddleName);
 		oa.lparentname(parentLastName);

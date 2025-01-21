@@ -11,7 +11,8 @@
   <parameter name="browser" value="chrome"/>
     <classes>
     <!--<class name="testCases.Test_LoginPage"/>-->
-      <class name="testCases.Test_OnlineAdmisson"/>
+     <!--<class name="testCases.Test_OnlineAdmisson"/>-->
+      <class name="testCases.Test_EmployeeCreation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
