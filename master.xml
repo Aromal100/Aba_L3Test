@@ -12,7 +12,8 @@
     <classes>
     <!--<class name="testCases.Test_LoginPage"/>-->
      <!--<class name="testCases.Test_OnlineAdmisson"/>-->
-      <class name="testCases.Test_EmployeeCreation"/>
+      <!--<class name="testCases.Test_EmployeeCreation"/>-->
+      <class name="testRunner.LoginRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
