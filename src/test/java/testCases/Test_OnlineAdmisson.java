@@ -23,6 +23,7 @@ public class Test_OnlineAdmisson extends BaseClass {
 		String parentFirstName = f.name().firstName();
 	    String parentMiddleName = f.name().firstName();
 	    String parentLastName = f.name().lastName();
+	    String mail=f.internet().emailAddress();
 	    String phone ="9"+ f.phoneNumber().subscriberNumber(8);
 		
 		OnlineAdmission oa= new OnlineAdmission(driver);
@@ -48,7 +49,7 @@ public class Test_OnlineAdmisson extends BaseClass {
 		oa.currentworeda();
 		oa.houseno("10");
 		oa.phone(phone);
-		oa.email("vishnupriya.resbee@gmail.com");
+		oa.email(mail);
 		oa.fparentname(parentFirstName);
 		oa.mparentname(parentMiddleName);
 		oa.lparentname(parentLastName);

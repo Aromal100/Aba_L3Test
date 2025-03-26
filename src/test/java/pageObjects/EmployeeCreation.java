@@ -25,7 +25,8 @@ public class EmployeeCreation extends LoginPage {
 	
 	public void profilepic() throws InterruptedException
 	{
-        String pic="C://Users//RESBEE-218//Downloads//argentino-barcelona-celebracion-futbolista-wallpaper-preview.jpg";
+        String pic=  "C://Users//RESBEE-218//Downloads//batman-bats-in-night-city-desktop-wallpaper-preview.jpg";
+      
 		
 		profilepic.sendKeys(pic);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -163,8 +164,8 @@ public class EmployeeCreation extends LoginPage {
 	WebElement doe;
 	public void doe()
 	{
-		String month="ጥር";
-		String year="2015";
+		String month="የካቲት";
+		String year="2016";
 		String date="1";
 		
 		doe.click();
@@ -177,6 +178,7 @@ public class EmployeeCreation extends LoginPage {
 			{
 				break;
 			}
+			
 			driver.findElement(By.xpath("//button[@id='btnmonthprev']//*[name()='svg']")).click();
 		}
 		
@@ -196,7 +198,7 @@ public class EmployeeCreation extends LoginPage {
 	public void depart()
 	{
 		Select s= new Select(depart);
-		s.selectByVisibleText("Biology");	
+		s.selectByVisibleText("Department");	
 	}
 	
 	@FindBy(id="ek_position")
@@ -204,7 +206,7 @@ public class EmployeeCreation extends LoginPage {
 	public void position()
 	{
 		Select s= new Select(position);
-		s.selectByVisibleText("New - n10");	
+		s.selectByValue("1");	
 	}
 	
 	
@@ -420,7 +422,7 @@ public class EmployeeCreation extends LoginPage {
 	WebElement comceti;
 	public void comceti() throws InterruptedException
 	{
-		String pic="C://Users//RESBEE-218//Downloads//argentino-barcelona-celebracion-futbolista-wallpaper-preview.jpg";
+		String pic="C://Users//RESBEE-218//Downloads//batman-bats-in-night-city-desktop-wallpaper-preview.jpg";
 		comceti.sendKeys(pic);
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[text()='Close']")).click();
@@ -592,7 +594,7 @@ public class EmployeeCreation extends LoginPage {
 	WebElement warletter;
 	public void warletter() throws InterruptedException
 	{
-		String pic="C://Users//RESBEE-218//Downloads//argentino-barcelona-celebracion-futbolista-wallpaper-preview.jpg";
+		String pic="C://Users//RESBEE-218//Downloads//batman-bats-in-night-city-desktop-wallpaper-preview.jpg";
 		warletter.sendKeys(pic);
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[text()='Close']")).click();

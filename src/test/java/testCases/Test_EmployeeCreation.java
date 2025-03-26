@@ -54,13 +54,13 @@ public class Test_EmployeeCreation extends BaseClass {
 		ec.firstn(firstname);
 		ec.middlen(firstname);
 		ec.lastn(lastname);
-		//ec.dob();
+		ec.doe();
 		ec.gender();
 		ec.disability();
 		ec.bloodtype();
 		ec.phone(phone);
 		ec.emptype();
-		ec.doe();
+		ec.dob();
 		ec.depart();
 		ec.position();
 		ec.role();
@@ -105,7 +105,7 @@ public class Test_EmployeeCreation extends BaseClass {
 		ec.teachpeda();
 		ec.save3();
 	//page4
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		ec.workexp();
 		ec.fname(firstname);
 		ec.mname(firstname);

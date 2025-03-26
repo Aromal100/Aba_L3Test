@@ -11,19 +11,39 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class OnlineAdmission extends BasePage {
-	
-	public OnlineAdmission(WebDriver driver)
-	{
+
+public class AddStudent extends LoginPage {
+
+	public AddStudent(WebDriver driver) {
 		super(driver);
 	}
 	
-	@FindBy(xpath="//*[text()='Online Admission']")
-	WebElement onlineadmission;
+	@FindBy(xpath="//span[normalize-space()='Student']")
+	WebElement student;
 	
-	public void onlineadmission()
+	public void student()
 	{
-		onlineadmission.click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("webLoader")));
+		wait.until(ExpectedConditions.elementToBeClickable(student));
+		student.click();
+	}
+
+	@FindBy(xpath="//span[normalize-space()='School Student']")
+	WebElement Schoolstu;
+	
+	public void Schoolstu()
+	{
+		Schoolstu.click();
+	}
+	
+	@FindBy(xpath="//span[normalize-space()='Add a student']")
+	WebElement addstudent;
+	
+	public void addstudent()
+	{
+		addstudent.click();
 	}
 	
 	@FindBy(id="shiftID")
@@ -41,7 +61,7 @@ public class OnlineAdmission extends BasePage {
 	public void grade()
 	{
 		Select s= new Select(grade);
-		s.selectByValue("GRADE8");
+		s.selectByValue("GRADE7");
 	}
 	
 	@FindBy(id="fname")
@@ -345,5 +365,19 @@ public class OnlineAdmission extends BasePage {
 		applybutton.click();
 	}
 	
+	@FindBy(xpath="//*[text()='Approve']")
+	WebElement approve;
 	
+	public void approve()
+	{
+		approve.click();
+	}
+	
+	@FindBy(id="approvebtn")
+	WebElement ok;
+	
+	public void ok()
+	{
+		ok.click();
+	}
 }
