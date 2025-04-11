@@ -13,7 +13,8 @@
     <!--<class name="testCases.Test_LoginPage"/>-->
      <!--<class name="testCases.Test_OnlineAdmisson"/>-->
      <!--<class name="testCases.AddStudentTest"/>-->
-      <class name="testCases.Test_EmployeeCreation"/>
+     <class name="testCases.MultipleAddStudent"/>
+     <!--<class name="testCases.Test_EmployeeCreation"/>-->
      <!-- <class name="testRunner.LoginRunner"/>-->
     </classes>
   </test> <!-- Test -->

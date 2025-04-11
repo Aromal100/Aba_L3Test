@@ -1,6 +1,8 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
@@ -76,20 +78,14 @@ public class AddStudentTest extends BaseClass{
 		addstu.parentphno(phone);
 		addstu.parentid();
 		addstu.checkBox();
-		addstu.paymentmethod();
+		//addstu.paymentmethod();
 		addstu.applybutton();
 		Thread.sleep(2000);
 		addstu.approve();
 		addstu.ok();
+
 		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 		
 	}
 	

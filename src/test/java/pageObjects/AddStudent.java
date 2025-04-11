@@ -61,7 +61,7 @@ public class AddStudent extends LoginPage {
 	public void grade()
 	{
 		Select s= new Select(grade);
-		s.selectByValue("GRADE7");
+		s.selectByValue("GRADE10");
 	}
 	
 	@FindBy(id="fname")
@@ -117,7 +117,7 @@ public class AddStudent extends LoginPage {
 	public void dob()
 	{
 		String month="ጥር";
-		String year="2010";
+		String year="2002";
 		String date="1";
 		
 		dob.click();
@@ -348,14 +348,14 @@ public class AddStudent extends LoginPage {
 		checkBox.click();
 	}
 	
-	@FindBy(id="paymentmethod")
-	WebElement paymentmethod;
-	
-	public void paymentmethod()
-	{
-		Select s= new Select(paymentmethod);
-		s.selectByValue("online");
-	}
+//	@FindBy(id="paymentmethod")
+//	WebElement paymentmethod;
+//	
+//	public void paymentmethod()
+//	{
+//		Select s= new Select(paymentmethod);
+//		s.selectByValue("online");
+//	}
 	
 	@FindBy(xpath="//*[text()='Apply']")
 	WebElement applybutton;
@@ -378,6 +378,7 @@ public class AddStudent extends LoginPage {
 	
 	public void ok()
 	{
+		
 		ok.click();
 	}
 }

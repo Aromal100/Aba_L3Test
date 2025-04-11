@@ -5,13 +5,14 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Test_EmployeeCreation">
+      <class name="testCases.MultipleAddStudent">
         <methods>
           <include name="teardown"/>
-          <include name="employeecreation"/>
           <include name="setup"/>
+          <include name="loginToAdmin"/>
+          <include name="addstudent" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testCases.Test_EmployeeCreation -->
+      </class> <!-- testCases.MultipleAddStudent -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
